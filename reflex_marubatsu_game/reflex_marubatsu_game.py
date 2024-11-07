@@ -56,7 +56,7 @@ class MarubatsuState(rx.State):
 def index():
     return rx.center(
         rx.vstack(
-            rx.heading("まるばつゲーム", font_size="2em", color=DEFAULT_COLOR),
+            rx.heading("マルバツゲーム", font_size="2em", color=DEFAULT_COLOR),
             rx.grid(
                 *[
                     rx.button(
